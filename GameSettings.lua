@@ -1,6 +1,6 @@
 local game = {
     ["DragonBall"] = {
-        Title = "Pink X Hub - Dragon Ball Z Final Stand2",
+        Title = "Pink X Hub - Dragon Ball Z Final Stand",
         Style = 3,
         SizeX = 500,
         SizeY = 350,
