@@ -102,7 +102,7 @@ function library:CreateWindow(options)
 	window.frame = self:Create("Frame", {
 		Name = options.text;
 		Parent = self.gui,
-		Visible = false,
+		Visible = true,
 		Active = true,
 		BackgroundTransparency = 0,
 		Size = UDim2.new(0, 178, 0, 30),
