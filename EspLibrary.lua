@@ -293,13 +293,7 @@ function ESP:Add(obj, options)
         Size = 19,
         Visible = self.Enabled and self.Names
 	})
-	box.Components["Distance"] = Draw("Text", {
-		Color = box.Color,
-		Center = true,
-		Outline = true,
-        Size = 19,
-        Visible = self.Enabled and self.Names
-	})
+	
 	
 	box.Components["Tracer"] = Draw("Line", {
 		Thickness = ESP.Thickness,
